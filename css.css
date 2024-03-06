@@ -82,7 +82,7 @@ body{
 
 #botDiv{
     height: 200px;
-    overflow: hidden;
+    overflow-y: hidden;
     background-color: forestgreen;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
