@@ -1,0 +1,109 @@
+*{
+    /* border: 1px solid black; */
+    font-family: monospace;
+}
+
+body{
+    margin: 0;
+}
+
+#navDiv a{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#navDiv img{
+    width: 80px;
+}
+
+#topDiv{
+    background-color: forestgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0;
+}
+
+#topDiv img{
+    margin: 0;
+    height: 250px;
+    width: 300px;
+    background-color: forestgreen;
+}
+
+#midDiv{
+    border: 1px solid black;
+    display: flex;
+    margin: 2% 0;
+    gap: 0;
+}
+
+#midDiv img{
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
+
+#heroDiv{
+    position: relative;
+    display: flex;
+    z-index: 1;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#buttons button{
+    text-decoration: none;
+    width: 50px;
+    padding: 0;
+    height: fit-content;
+}
+
+#buttonsUpDown{
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons img{
+    display: flex;
+    width: 100%;
+}
+
+#buttonFw{
+    display: flex;
+    align-items: center;
+}
+
+#botDiv{
+    height: 200px;
+    overflow: hidden;
+    background-color: forestgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0;
+
+}
+
+#botDiv img{
+    margin: 0;
+    height: 250px;
+    width: 300px;
+    background-color: forestgreen;
+}
+
+#placementDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 250px;
+    width: 300px;
+    background-color: forestgreen;
+}
+
