@@ -35,8 +35,6 @@ body{
 }
 
 #midDiv{
-    border: 1px solid black;
-    display: flex;
     margin: 2% 0;
     gap: 0;
 }
@@ -82,7 +80,6 @@ body{
 
 #botDiv{
     height: 200px;
-    overflow-y: hidden;
     background-color: forestgreen;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -98,6 +95,7 @@ body{
 }
 
 #placementDiv{
+    color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
